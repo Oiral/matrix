@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext", "webworker"],
+    "target": "ESNext",
+    "types": [
+      "@emotion/react/types/css-prop",
+      "node"
+    ],
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "@emotion/react": ["node_modules/@emotion/react"]
+    }
+  }
+}
